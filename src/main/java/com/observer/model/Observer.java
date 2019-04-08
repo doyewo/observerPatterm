@@ -1,4 +1,5 @@
 package com.observer.model;
 
-public class Observer {
+public interface Observer {
+    void update();
 }

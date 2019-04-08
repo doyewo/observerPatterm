@@ -1,4 +1,4 @@
 package com.observer.model;
 
-public class ConcreteSubject {
+public class UpdateSubject {
 }
