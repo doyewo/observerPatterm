@@ -5,10 +5,10 @@ import com.observer.model.UpdateObserver;
 import com.observer.model.UpdateSubject;
 import org.junit.Test;
 
-public class ObserverTest {
+public class ObserverPatternTest {
 
     @Test
-    public void testObserver() throws CloneNotSupportedException {
+    public void testObserverPattern() throws CloneNotSupportedException {
 
         UpdateSubject subject = new UpdateSubject();
 
