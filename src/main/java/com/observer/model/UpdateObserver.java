@@ -15,7 +15,7 @@ public class UpdateObserver implements Observer {
 
     }
 
-    protected int getObserverState() {
+    public int getObserverState() {
         return observerState;
     }
 }
