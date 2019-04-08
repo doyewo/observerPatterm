@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6781a66-337b-4b8d-9e90-d5e3a5b32edf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObserverPatternTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/model/UpdateObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/observer/model/UpdateObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/model/UpdateSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/observer/model/UpdateCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObserverPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObserverPatternTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,17 +36,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/UpdateObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="270">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,22 +58,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
                 <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/UpdateSubject.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/UpdateCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#125#126#0" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
@@ -71,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ObserverPatternTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="326">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +112,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/observer/model/ConcreteObserver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/observer/model/UpdateObserver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/model/UpdateSubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/model/Observer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/model/Subject.java" />
         <option value="$PROJECT_DIR$/src/test/java/ObserverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/model/UpdateCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/model/UpdateObserver.java" />
         <option value="$PROJECT_DIR$/src/test/java/ObserverPatternTest.java" />
       </list>
     </option>
@@ -137,6 +151,21 @@
               <item name="ObserverPattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ObserverPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ObserverPattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ObserverPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ObserverPattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ObserverPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -184,7 +213,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ObserverTest.testObserver">
+  <component name="RunManager" selected="Gradle.ObserverPatternTest.testObserverPattern">
+    <configuration name="ObserverPatternTest.testObserverPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ObserverPatternTest.testObserverPattern&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ObserverTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,6 +276,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ObserverPatternTest.testObserverPattern" />
         <item itemvalue="Gradle.ObserverTest.testObserver" />
         <item itemvalue="Gradle.ObserverTest" />
       </list>
@@ -243,7 +293,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554687260353</updated>
       <workItem from="1554687261693" duration="3566000" />
-      <workItem from="1554702352426" duration="874000" />
+      <workItem from="1554702352426" duration="1950000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Created file structure&quot;">
       <created>1554688095733</created>
@@ -273,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554702394641</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;Updates&quot;">
+      <created>1554750032496</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554750032496</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -292,15 +349,23 @@
     <history-entry file="ObserverTest_testObserver - 2019.04.08 at 00h 45m 10s.xml">
       <configuration name="ObserverTest.testObserver" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="ObserverTest_testObserver - 2019.04.08 at 14h 12m 33s.xml">
+      <configuration name="ObserverTest.testObserver" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ObserverTest_testObserver - 2019.04.08 at 14h 12m 36s.xml">
+      <configuration name="ObserverTest.testObserver" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ObserverTest_testObserver - 2019.04.08 at 14h 12m 39s.xml">
+      <configuration name="ObserverTest.testObserver" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4440000" />
+    <option name="totallyTimeSpent" value="5516000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="453" width="1400" height="781" extended-state="0" />
-    <editor active="true" />
+    <frame x="63" y="52" width="1400" height="781" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -309,8 +374,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3280116" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3280116" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39912918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -318,7 +383,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32946298" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3280116" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3280116" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -342,7 +407,8 @@
     <MESSAGE value="&quot;UpdateObserver&quot;" />
     <MESSAGE value="&quot;Finished the main classes&quot;" />
     <MESSAGE value="&quot;Finished test class&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Finished test class&quot;" />
+    <MESSAGE value="&quot;Updates&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Updates&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="uml://JAVA/com.observer.model.ConcreteObserver">
@@ -366,27 +432,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/UpdateSubject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/UpdateCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#125#126#0" expanded="true" />
             <element signature="e#153#154#0" expanded="true" />
@@ -394,20 +462,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ObserverPatternTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/UpdateObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/model/UpdateObserver.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ObserverPatternTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="326">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

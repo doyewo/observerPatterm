@@ -1,6 +1,6 @@
 package com.observer.model;
 
-public class UpdateSubject extends Subject {
+public class UpdateCase extends Subject {
 
     private int state;
 

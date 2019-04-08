@@ -2,7 +2,7 @@ import static org.junit.Assert.assertEquals;
 
 import com.observer.model.Observer;
 import com.observer.model.UpdateObserver;
-import com.observer.model.UpdateSubject;
+import com.observer.model.UpdateCase;
 import org.junit.Test;
 
 public class ObserverPatternTest {
@@ -10,16 +10,16 @@ public class ObserverPatternTest {
     @Test
     public void testObserverPattern() throws CloneNotSupportedException {
 
-        UpdateSubject subject = new UpdateSubject();
+        UpdateCase event = new UpdateCase();
 
-        Observer observer = new UpdateObserver(subject);
-        subject.attach(observer);
-        subject.setState(1);
+        Observer observer = new UpdateObserver(event);
+        event.attach(observer);
+        event.setState(1);
 
         assertEquals(1, ((UpdateObserver) observer).getObserverState());
 
-        subject.dettach(observer);
-        subject.setState(0);
+        event.dettach(observer);
+        event.setState(0);
 
         assertEquals(1, ((UpdateObserver) observer).getObserverState());
     }

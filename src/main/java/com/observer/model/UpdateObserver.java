@@ -4,14 +4,14 @@ public class UpdateObserver implements Observer {
 
     private int observerState;
 
-    private UpdateSubject subject;
+    private UpdateCase event;
 
-    public UpdateObserver(UpdateSubject subject) {
-        this.subject = subject;
+    public UpdateObserver(UpdateCase event) {
+        this.event = event;
     }
 
     public void update() {
-        observerState = subject.getState();
+        observerState = event.getState();
 
     }
 
