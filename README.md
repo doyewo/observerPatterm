@@ -11,3 +11,8 @@ The purpose of an observer pattern is so that when one object changes state, all
 Test the Observer pattern in:
 
 src/main/java/ObserverPatternTest
+
+Resources:
+
+https://www.geeksforgeeks.org/observer-pattern-set-2-implementation/
+http://www.blackwasp.co.uk/Observer.aspx
