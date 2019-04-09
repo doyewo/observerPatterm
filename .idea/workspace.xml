@@ -123,7 +123,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
+    <option name="x" value="40" />
     <option name="y" value="52" />
     <option name="width" value="1400" />
     <option name="height" value="781" />
@@ -213,7 +213,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ObserverPatternTest.testObserverPattern">
+  <component name="RunManager" selected="Gradle.ObserverPatternTest">
+    <configuration name="ObserverPatternTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ObserverPatternTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ObserverPatternTest.testObserverPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -276,6 +296,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ObserverPatternTest" />
         <item itemvalue="Gradle.ObserverPatternTest.testObserverPattern" />
         <item itemvalue="Gradle.ObserverTest.testObserver" />
         <item itemvalue="Gradle.ObserverTest" />
